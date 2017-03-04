@@ -3,7 +3,7 @@
 > A collection of awesome recipes
 
 ## Table of Contents
-- [Entrées]()
+- [Entrées](#entrées)
 - [Snacks](#snacks)
 
 ## Entrées
