@@ -26,4 +26,5 @@ Serves 2
 
 1. Spread peanut butter and Nutella over the wrap
 2. Slice the banana into thin circular chunks. Place on the middle of the wrap.
-3. Fold the wrap as wanted. Use a pannini press to seal the wraps if desired!
+3. Fold the wrap as wanted. Use a pannini press to seal the wraps if desired.
+4. Sprinkle cinammon on top of sealed wrap to add flavor.
