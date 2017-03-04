@@ -6,9 +6,11 @@
 
 ## Snacks
 
-#### Almost Healthy Beaver Tail
+#### Almost Healthy Beaver Tails
 
 > Inspired by the Canadian classic, [Beaver Tails](http://beavertails.com/en/)
+
+![Almost Healthy Beaver Tails](/almost_healthy_beaver_tails.jpg)
 
 ###### Ingredients
 
