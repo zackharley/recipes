@@ -3,6 +3,7 @@
 > A collection of awesome recipes
 
 ## Table of Contents
+- [Snacks](#snacks)
 
 ## Snacks
 
