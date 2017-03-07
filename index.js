@@ -24,10 +24,20 @@ readme += '\n';
 for(let i = 0; i < categories.length; i++) {
 	let category = recipes[categories[i]];
 	readme += `## ${categoriesUpperCase[i]}\n\n`
-	category.forEach((recipe) => {
+	category.forEach((recipe, index) => {
+		
+		if(recipe.ingredients.length === 0 && recipe.instructions.length === 0) {
+			throw new Error(`Invalid recipe [category: "${categories[i]}", recipe: ${index}]. No ingredients or instructions supplied.`);
+		} else if(recipe.ingredients.length === 0) {
+			throw new Error(`Invalid recipe [category: "${categories[i]}", recipe: ${index}]. No ingredients supplied.`);
+		} else if(recipe.instructions.length === 0) {
+			throw new Error(`Invalid recipe [category: "${categories[i]}", recipe: ${index}]. No instructions supplied.`);
+		}
+
 		readme += [
 			`#### ${recipe.name}\n`,
-			`> ${recipe.description}\n`,
+			recipe.description ? `> ${recipe.description}\n` : '',
+			generateTimesTable(recipe.time),
 			`![${recipe.name}](images/${generateImageUrl(recipe.name)})`,
 			'##### Ingredients\n',
 			`> Serves ${recipe.serves}\n`,
@@ -51,6 +61,14 @@ function generateImageUrl(name) {
 	return `${name.toLowerCase().split(' ').join('_')}.jpg`;
 }
 
+// Generates a markdown table containing the times for a recipe
+function generateTimesTable(times) {
+	const headers = '| Type | Count |\n|:-:|:-:|\n';
+	return headers + times.map((time) => {
+		return `| ${time.type} | ${time.count} |`;
+	}).join('\n');
+}
+
 // Generates the markdown table for a recipe's ingredients
 function generateIngredientsTable(ingredients) {
 	const headers = '| Ingredient | Quantity |\n|:-:|:-:|\n';
@@ -63,5 +81,5 @@ function generateIngredientsTable(ingredients) {
 function generateInstructionsString(instructions) {
 	return instructions.map((instruction, index) => {
 		return `${index + 1}. ${instruction}`;
-	}).join('\n');
+	}).join('\n') + '\n\n';
 }
