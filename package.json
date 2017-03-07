@@ -3,12 +3,12 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "precommit": "node index"
+  },
   "author": ": Zack Harley",
   "license": "MIT",
-  "config": {
-	    "ghooks": {
-	      	"pre-commit": "node index"
-	    }
-  },
+  "dependencies": {
+    "husky": "^0.13.2"
+  }
 }
