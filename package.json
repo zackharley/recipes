@@ -1,0 +1,14 @@
+{
+  "name": "recipes",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": ": Zack Harley",
+  "license": "MIT",
+  "config": {
+	    "ghooks": {
+	      	"pre-commit": "node index"
+	    }
+  },
+}

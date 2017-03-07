@@ -3,10 +3,13 @@
 > A collection of awesome recipes
 
 ## Table of Contents
-- [Entrées](#entrées)
+- [Entrees](#entrees)
+- [Sides](#sides)
 - [Snacks](#snacks)
 
-## Entrées
+## Entrees
+
+## Sides
 
 ## Snacks
 
@@ -14,19 +17,18 @@
 
 > Inspired by the Canadian classic, [Beaver Tails](http://beavertails.com/en/)
 
-![Almost Healthy Beaver Tails](/almost_healthy_beaver_tails.jpg)
+![Almost Healthy Beaver Tails](images/almost_healthy_beaver_tails.jpg)
+##### Ingredients
 
-###### Ingredients
+> Serves 2
 
-Serves 2
-
-| Ingredient    | Quantity |
-|:-------------:|:--------:|
-| Banana        | 1        |
-| Wrap          | 2        |
-| Nutella       | 2 tbsps  |
-| Peanut Butter | 2 tbsps  |
-| Cinammon      | 1 tsp    |
+| Ingredient | Quantity |
+|:-:|:-:|
+| Banana | 1 |
+| Wrap | 2 |
+| Nutella | 2 tbsps |
+| Peanut Butter | 2 tbsps |
+| Cinammon | 1 tsp |
 
 ##### Instructions
 
