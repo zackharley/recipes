@@ -63,10 +63,13 @@ function generateImageUrl(name) {
 
 // Generates a markdown table containing the times for a recipe
 function generateTimesTable(times) {
+	let total = 0;
 	const headers = '| Type | Count |\n|:-:|:-:|\n';
-	return headers + times.map((time) => {
+	const timeRows = times.map((time) => {
+		total += time.count;
 		return `| ${time.type} | ${time.count} |`;
 	}).join('\n');
+	return headers + timeRows + `\n| **Total** | **${total}** |`;
 }
 
 // Generates the markdown table for a recipe's ingredients

@@ -15,9 +15,10 @@
 
 | Type | Count |
 |:-:|:-:|
-| marinate | 60 |
-| prep | 45 |
-| cook | 10 |
+| Marinate | 60 |
+| Prep | 45 |
+| Cook | 10 |
+| **Total** | **115** |
 ![Grilled Tilapia with Mango Salsa](images/grilled_tilapia_with_mango_salsa.jpg)
 ##### Ingredients
 
@@ -57,8 +58,9 @@
 
 | Type | Count |
 |:-:|:-:|
-| prep | 10 |
-| cook | 5 |
+| Prep | 10 |
+| Cook | 5 |
+| **Total** | **15** |
 ![Almost Healthy Beaver Tails](images/almost_healthy_beaver_tails.jpg)
 ##### Ingredients
 
