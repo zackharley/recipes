@@ -20,6 +20,7 @@
 | Prep | 45 |
 | Cook | 10 |
 | **Total** | **115** |
+
 ![Grilled Tilapia with Mango Salsa](images/grilled_tilapia_with_mango_salsa.jpg)
 ##### Ingredients
 
@@ -59,6 +60,7 @@
 | Prep | 15 |
 | Cook | 5 |
 | **Total** | **20** |
+
 ![Apple Bacon Quesadilla](images/apple_bacon_quesadilla.jpg)
 ##### Ingredients
 
@@ -96,6 +98,7 @@
 | Prep | 10 |
 | Cook | 5 |
 | **Total** | **15** |
+
 ![Almost Healthy Beaver Tails](images/almost_healthy_beaver_tails.jpg)
 ##### Ingredients
 
