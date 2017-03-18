@@ -69,7 +69,7 @@ function generateTimesTable(times) {
 		total += time.count;
 		return `| ${time.type} | ${time.count} |`;
 	}).join('\n');
-	return headers + timeRows + `\n| **Total** | **${total}** |`;
+	return headers + timeRows + `\n| **Total** | **${total}** |\n`;
 }
 
 // Generates the markdown table for a recipe's ingredients
