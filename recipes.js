@@ -88,6 +88,58 @@ module.exports = {
 			]
 		}
 	],
+	lunches: [
+		{
+			name: 'Apple Bacon Quesadilla',
+			description: '',
+			serves: 1,
+			time: [
+				{
+					type: 'Prep',
+					count: 15
+				},
+				{
+					type: 'Cook',
+					count: 5
+				}
+			],
+			ingredients: [
+				{
+					name: 'apple',
+					quantity: '1'
+				},
+				{
+					name: 'wrap',
+					quantity: '2'
+				},
+				{
+					name: 'peanut butter',
+					quantity: '4 tablespoons'
+				},
+				{
+					name: 'honey',
+					quantity: '2 tablespoons'
+				},
+				{
+					name: 'bacon',
+					quantity: '4 strips'
+				},
+				{
+					name: 'marble cheese',
+					quantity: '30 grams'
+				}
+			],
+			instructions: [
+				'Cook the strips of bacon in a frying pan on the stove.',
+				'Peel the apple, then cut it into 8 pieces.',
+				'Slice the cheese into 4 slices',
+				'Turn the oven on to broil on high.',
+				'Place the wraps on a greased, or aluminum foil-covered, baking sheet.',
+				'Put 4 apple slices on half of each wrap. Place the bacon strips on top of the apples, followed next by the cheese slices. Spread peanut butter and honey on the other half of the wraps and fold them closed.',
+				'Put the baking sheet with the quesadillas into the oven and broil for 5 minutes. Remove and serve hot!'
+			]
+		}
+	],
 	sides: [
 	
 	],
